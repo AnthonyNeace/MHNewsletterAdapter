@@ -4,6 +4,8 @@
     Anthony Neace, 2016
 */
 
-var rssfeedparser = require('./lib/rssfeedparser.js');
+var rssfeedparser = require('./lib/rssfeedparser.js')
+, config = require('./config.js');
 
+rssfeedparser.initialize(config);
 rssfeedparser.fetch();
