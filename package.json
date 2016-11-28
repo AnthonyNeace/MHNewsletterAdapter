@@ -1,9 +1,10 @@
 {
-  "name": "mailchimp-rss-to-json",
+  "name": "mercyhill-newsletter-adapter",
   "version": "0.0.1",
-  "description": "Converts Mailchimp RSS feeds to json",
+  "description": "Adapts Mercy Hill Newsletter's RSS Feed to various data types.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anthony Neace",
